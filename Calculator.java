@@ -6,8 +6,8 @@ public class Calculator {
         System.out.println("Enter two integer values: ");
         int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.println("Calculate me! A calculator made by me..");
-        System.out.println("Press 1 for addition, 2 for substraction, 3 for multiplication, 4 for division and 5 for modulo operation\n");
+        System.out.println("***** Calculate me! A calculator made by me *****\n");
+        System.out.println("Press 1 for addition, 2 for substraction, 3 for multiplication, 4 for division and 5 for modulo operation..");
         int key = sc.nextInt();
         int sum = a+b;
         int diff = a-b;
@@ -16,15 +16,15 @@ public class Calculator {
         int rem = a%b;
 
         switch (key) {
-            case 1: System.out.println("sum is = "+sum);
+            case 1: System.out.println("Sum is = "+sum);
             break;
-            case 2: System.out.println("difference is = "+diff);
+            case 2: System.out.println("Difference is = "+diff);
             break;
-            case 3: System.out.println("multiplication = "+mul);
+            case 3: System.out.println("Multiplication = "+mul);
             break;
-            case 4: System.out.println("division of two "+div);
+            case 4: System.out.println(a+" divided by "+b+" is = "+div);
             break;
-            case 5: System.out.println("The remainder is "+rem);
+            case 5: System.out.println("The remainder after a%b is "+rem);
             break;
             default: System.out.println("Invalid option");
             break;

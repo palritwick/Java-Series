@@ -34,7 +34,7 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 5, 3, 2, 1, 7, 6 };
+        int arr[] = { 5, 1, 2, 1, 7, 3 };
         int n = arr.length;
         divide(arr, 0, n - 1);
         // print

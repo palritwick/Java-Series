@@ -6,7 +6,7 @@ public class Hashing {
     public static void main(String[] args) {
         // HashSet
         HashSet<Integer> set = new HashSet<>();
-        // // Insert
+        // Insert
         set.add(1);
         set.add(4);
         set.add(4);

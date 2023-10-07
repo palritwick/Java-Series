@@ -57,43 +57,44 @@ public class Patterns {
 
         // 6. Numbered half pyramid
         // int n = 5;
-        // for(int i=1; i<=n; i++){
-        // for(int j=1; j<=i; j++){
-        // System.out.print(j+" ");
+        // for (int i = 1; i <= n; i++) {
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print(j + " ");
         // }
         // System.out.println();
         // }
 
         // 7. Inverted numbered half pyramid
-        // for(int i=n; i>=1; i--){
-        // for(int j=1; j<=i; j++){
-        // System.out.print(j+" ");
-        // }
-        // System.out.println();
+        // int n = 5;
+        // for (int i = n; i >= 1; i--) {
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print(j + " ");
+        //     }
+        //     System.out.println();
         // }
 
         // 8.
+        int n = 5;
+        int number = 1;
+        for(int i=0; i<=n; i++){
+        for(int j=1; j<=i; j++){
+        System.out.print(number+" ");
+        number++;
+        }
+        System.out.println();
+        }
+
+        // 9. Binary half pyramid
         // int n = 5;
-        // int number = 1;
-        // for(int i=0; i<=n; i++){
-        // for(int j=1; j<=i; j++){
-        // System.out.print(number+" ");
-        // number++;
+        // for (int i = 1; i <= n; i++) {
+        // for (int j = 1; j <= i; j++) {
+        // if ((i + j) % 2 == 0) {
+        // System.out.print(1 + " ");
+        // } else {
+        // System.out.print(0 + " ");
+        // }
         // }
         // System.out.println();
         // }
-
-        // 9. Binary half pyramid
-        int n = 5;
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
-                if ((i + j) % 2 == 0) {
-                    System.out.print(1 + " ");
-                } else {
-                    System.out.print(0 + " ");
-                }
-            }
-            System.out.println();
-        }
     }
 }

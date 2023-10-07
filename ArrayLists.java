@@ -12,15 +12,15 @@ public class ArrayLists {
 
         //to get an element
         int el = list.get(0);
-        System.out.println(el);
+        System.out.println(el); // 1
 
         //add element in between
         list.add(1,5);
-        System.out.println(list);
+        System.out.println(list); // 1 5 2 3
 
         //set element
         list.set(0,0);
-        System.out.println(list);
+        System.out.println(list); // 0 1 5 2 3
 
         //remove/delete element
         list.remove(3);
